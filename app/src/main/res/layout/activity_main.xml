@@ -14,6 +14,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a look to our README if you are not sure how to use this template." />
+
+    <ImageView
+        android:id="@+id/image_howto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
 
     <include layout="@layout/voice_btn_layout"
         android:visibility="visible" />
