@@ -10,20 +10,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="eu.alfred.alfred_applicationtemplate.MainActivity">
 
+    <RelativeLayout android:id="@+id/tracker_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textSize="60px"
         android:text="Have a look to our README if you are not sure how to use this template." />
 
+
     <ImageView
-        android:id="@+id/image_howto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/mainImageView"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:opacity="translucent"
         android:src="@drawable/ic_launcher" />
+
 
     <include layout="@layout/voice_btn_layout"
         android:visibility="visible" />
