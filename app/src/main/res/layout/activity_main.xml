@@ -14,4 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <include layout="@layout/voice_btn_layout"
+        android:visibility="visible" />
+
 </RelativeLayout>
