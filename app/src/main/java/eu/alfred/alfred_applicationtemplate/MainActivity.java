@@ -26,9 +26,7 @@ public class MainActivity extends AppActivity implements ICadeCommand {
             @Override
             public void OnConnected() {
                 Log.i(TAG, "PersonalAssistantConnection connected");
-
             }
-
             @Override
             public void OnDisconnected() {
                 Log.i(TAG, "PersonalAssistantConnection disconnected");
